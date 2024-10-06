@@ -51,7 +51,7 @@ public class EventController {
             eventService.update(id, event);
         } catch (EventNotFoundException e) {
             throw new ResponseStatusException(
-                    HttpStatus.NOT_FOUND, "Foo Not Found", e);
+                    HttpStatus.NOT_FOUND, "Event Not Found", e);
         }
     }
 }
