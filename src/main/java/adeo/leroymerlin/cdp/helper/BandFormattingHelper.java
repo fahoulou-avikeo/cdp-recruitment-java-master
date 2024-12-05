@@ -4,6 +4,9 @@ import adeo.leroymerlin.cdp.entity.Band;
 import org.springframework.stereotype.Component;
 
 @Component
+/**
+ * Helper
+ */
 public class BandFormattingHelper {
 
     public void formatBand(Band band) {
